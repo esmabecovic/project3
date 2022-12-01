@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Anek Devanagari', sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: white;
+}
+.logo{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: #FA440C;
+}
+.navlinks{
+    width: 50%;
+}
+.navlinks ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.navlinks a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.navlinks a:hover{
+    color: black;
+    border-bottom: 3px solid #FA440C;
+}
+.navbar button{
+    padding: 13px 22px;
+    border-radius: 20px;
+    border: 1px solid #FA440C;
+    background-color: #FA440C;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn{
+    padding: 0px 10px 0px;
+}
+button:hover{
+    border: 1px solid #e74919d0;
+    background-color: #f33f08d0;
+}
+.wrapper{
+    background-color: #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section h1{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 70px;
+    width: 60%;
+    margin-left: 60px;
+    color: #3C3C3C;
+    font-weight: 200;
+}
+.section p{
+    width: 70%;
+    margin-left: 60px;
+    color: #4d4d4d;
+    font-size: 18px;
+}
+.btn1{
+    padding: 20px 60px;
+    align-items: flex-start;
+}
+.section button{
+    padding: 14px 40px;
+    margin: 15px 20px 0 0;
+    border-radius: 20px;
+    /* border: 1px solid #FA440C;
+    background-color: #FA440C; */
+    cursor: pointer;
+}
+.btn2{
+    border: 1px solid #FA440C;
+    background-color: #FA440C;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.btn3{
+    border: transparent;
+    background-color: #dfdfdf;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.btn3:hover{
+    color: #FA440C;
+    background-color: transparent;
+    border: transparent;
+}
+img{
+    width: 670px;
+    margin: 0 40px 0 0;
+}
+.btn3.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
